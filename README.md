@@ -3,33 +3,40 @@
 The following Directory structure is to be followed in the application.     
 
 
-o *entity/model*
+o *entity/model*      
+
 ▪ Create entity classes in this package. All entity class should not have any
 business logic.     
 
 
 
-o *dao* 
-▪ Create Service Provider interface/abstract class to showcase functionalities.
+o *dao*       
+
+▪ Create Service Provider interface/abstract class to showcase functionalities.     
+
 ▪ Create the implementation class for the above interface/abstract class with db
 interaction.     
 
 
-o *exception*
+o *exception*     
+
 ▪ Create user defined exceptions in this package and handle exceptions whenever
 needed.     
 
 
 
-o *util*
+o *util*     
+
 ▪ Create a DBPropertyUtil class with a static function which takes property file
-name as parameter and returns connection string.
+name as parameter and returns connection string.      
+
 ▪ Create a DBConnUtil class which holds static method which takes connection
 string as parameter file and returns connection object.     
 
 
 
-o *main*
+o *main*    
+
 ▪ Create a class MainModule and demonstrate the functionalities in a menu
 driven application.     
 
